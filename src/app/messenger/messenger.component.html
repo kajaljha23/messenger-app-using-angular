@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="sidebar">
+      <div class="header">
+        <img src="assets/img/profile.png" alt="User Profile">
+        <span class="messenger-name">KJ</span>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search contacts">
+      </div>
+      <div class="contacts">
+        <div *ngFor="let contact of contacts" (click)="selectContact(contact)" [class.active]="selectedContact === contact">
+          <div class="contact">
+            <div class="contact-avatar">
+              <img src="{{ contact.avatar }}" alt="Contact Avatar">
+            </div>
+            <div class="contact-details">
+              <div class="contact-name">{{ contact.name }}</div>
+              <div class="contact-last-message">{{ contact.lastMessage }}</div>
+            </div>
+            <div class="message-status">
+              <span *ngIf="contact.unreadMessages > 0" class="unread-badge">{{ contact.unreadMessages }}</span>
+              <span *ngIf="contact.online" class="online-indicator"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chat">
+      <div class="chat-header" *ngIf="selectedContact">
+        <div class="contact-avatar">
+          <img src="{{ selectedContact.avatar }}" alt="Contact Avatar">
+        </div>
+        <div class="contact-details">
+          <div class="contact-name">{{ selectedContact.name }}</div>
+          <div class="online-status" *ngIf="selectedContact.online">Online</div>
+        </div>
+      </div>
+      <div class="chat-messages" *ngIf="selectedContact">
+        <div *ngFor="let message of selectedContact.messages">
+          <div class="message" [class.sent]="message.sender === 'You'">
+            <div class="message-content">{{ message.text }}</div>
+            <div class="message-timestamp">{{ message.timestamp | date:'short' }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" placeholder="Type a message">
+        <button class="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+  

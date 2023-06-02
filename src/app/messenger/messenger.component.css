@@ -1,0 +1,190 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .sidebar .search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .contacts .contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .contacts .contact:hover {
+    background-color: #eaeaea;
+  }
+  
+  .sidebar .contacts .contact.active {
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar .contacts .contact .contact-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar .contacts .contact .contact-details .contact-name {
+    font-weight: bold;
+  }
+  
+  .sidebar .contacts .contact .message-status {
+    margin-left: auto;
+  }
+  
+  .sidebar .contacts .contact .message-status .unread-badge {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .sidebar .contacts .contact .message-status .online-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #25d366;
+    border-radius: 50%;
+  }
+  
+  .chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-header .contact-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-header .contact-details .contact-name {
+    font-weight: bold;
+  }
+  
+  .chat-header .contact-details .online-status {
+    font-size: 12px;
+    color: #25d366;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chat-messages .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    border-radius: 5px;
+  }
+  
+  .chat-messages .message.sent {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+  }
+  
+  .chat-messages .message .message-content {
+    word-wrap: break-word;
+  }
+  
+  .chat-messages .message .message-timestamp {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .chat-input .send-button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unread-badge {
+    font-weight: bold;
+  }
+  
+  .online-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #25d366;
+    border-radius: 50%;
+  }
+  
+  .sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  .sidebar .header .messenger-name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(49, 167, 49);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  

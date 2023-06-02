@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "name": "Mom",
+      "avatar": "assets/img/john-doe-avatar.png",
+      "online": true,
+      "lastMessage": "Hello",
+      "unreadMessages": 2,
+      "messages": [
+        { "id": 1, "text": "Hello", "sender": "John Doe", "timestamp": "2023-06-02T10:30:00Z" },
+        { "id": 2, "text": "Hi", "sender": "You", "timestamp": "2023-06-02T10:31:00Z" },
+        { "id": 3, "text": "How are you?", "sender": "You", "timestamp": "2023-02-02T10:31:00Z" },
+        { "id": 4, "text": "I am fine", "sender": "John Doe", "timestamp": "2023-02-02T10:31:00Z" },
+        { "id": 5, "text": "What about you?", "sender": "John Doe", "timestamp": "2023-03-02T10:31:00Z" },
+        { "id": 6, "text": "Hi", "sender": "You", "timestamp": "2023-06-02T10:31:00Z" },
+        { "id": 7, "text": "Hi", "sender": "You", "timestamp": "2023-06-02T10:31:00Z" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Papa",
+      "avatar": "assets/img/jane-smith-avatar.png",
+      "online": false,
+      "lastMessage": "How are you?",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "Hey", "sender": "You", "timestamp": "2023-06-02T11:00:00Z" },
+        { "id": 2, "text": "How are you?", "sender": "Jane Smith", "timestamp": "2023-06-02T11:01:00Z" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Karan Kumar",
+      "avatar": "assets/img/mark-johnson-avatar.png",
+      "online": true,
+      "lastMessage": "Good morning!",
+      "unreadMessages": 1,
+      "messages": [
+        { "id": 1, "text": "Good morning!", "sender": "Mark Johnson", "timestamp": "2023-06-02T09:00:00Z" },
+        { "id": 2, "text": "Morning!", "sender": "You", "timestamp": "2023-06-02T09:01:00Z" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brother",
+      "avatar": "assets/img/sarah-davis-avatar.png",
+      "online": true,
+      "lastMessage": "See you later!",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "See you later!", "sender": "Sarah Davis", "timestamp": "2023-06-01T19:30:00Z" },
+        { "id": 2, "text": "Goodbye!", "sender": "You", "timestamp": "2023-06-01T19:31:00Z" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Suryanshu",
+      "avatar": "assets/img/david-wilson-avatar.png",
+      "online": false,
+      "lastMessage": "Are you free tomorrow?",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "Are you free tomorrow?", "sender": "David Wilson", "timestamp": "2023-06-01T14:45:00Z" },
+        { "id": 2, "text": "Yes, I am.", "sender": "You", "timestamp": "2023-06-01T14:46:00Z" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Malini Patnaik",
+      "avatar": "assets/img/emily-thompson-avatar.png",
+      "online": true,
+      "lastMessage": "See you at the party!",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "See you at the party!", "sender": "Emily Thompson", "timestamp": "2023-05-31T20:15:00Z" },
+        { "id": 2, "text": "Can't wait!", "sender": "You", "timestamp": "2023-05-31T20:16:00Z" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Alla Aditi",
+      "avatar": "assets/img/michael-brown-avatar.png",
+      "online": true,
+      "lastMessage": "Did you finish the project?",
+      "unreadMessages": 1,
+      "messages": [
+        { "id": 1, "text": "Did you finish the project?", "sender": "Michael Brown", "timestamp": "2023-05-31T09:30:00Z" },
+        { "id": 2, "text": "Almost done!", "sender": "You", "timestamp": "2023-05-31T09:31:00Z" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Girl Gang",
+      "avatar": "assets/img/olivia-wilson-avatar.png",
+      "online": false,
+      "lastMessage": "Happy birthday!",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "Happy birthday!", "sender": "Olivia Wilson", "timestamp": "2023-05-30T15:00:00Z" },
+        { "id": 2, "text": "Thank you!", "sender": "You", "timestamp": "2023-05-30T15:01:00Z" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ankit Kumar",
+      "avatar": "assets/img/james-anderson-avatar.png",
+      "online": true,
+      "lastMessage": "Can we meet tomorrow?",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "Can we meet tomorrow?", "sender": "James Anderson", "timestamp": "2023-05-29T18:30:00Z" },
+        { "id": 2, "text": "Sure, let's meet at the cafe.", "sender": "You", "timestamp": "2023-05-29T18:31:00Z" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Sophia hill",
+      "avatar": "assets/img/olivia-wilson-avatar.png",
+      "online": true,
+      "lastMessage": "See you soon!",
+      "unreadMessages": 0,
+      "messages": [
+        { "id": 1, "text": "See you soon!", "sender": "Sophia White", "timestamp": "2023-05-29T12:45:00Z" },
+        { "id": 2, "text": "Goodbye!", "sender": "You", "timestamp": "2023-05-29T12:46:00Z" }
+      ]
+    }
+  ]
+  
